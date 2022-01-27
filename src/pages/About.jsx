@@ -15,7 +15,8 @@ const About = () => {
         </div>
         
         <p className="text">
-        CM42 PTY LTD is an interpreneural business with strong ambitions to become a leading service organisation in South Africa. We are a small team of highly skilled and experienced professionals who are dedicated to providing the best possible service to our clients. We also employ highly skilled experts with a collective 20 years of experience in the field of Electrical and Mechanical Engineering. Our services are not limited to any specific original equipment manufacturer (OEM) , But Cover a wide 
+        CM42 PTY LTD is an interpreneural business with strong ambitions to become a leading service organisation in South Africa. We are a small team of highly skilled and experienced professionals who are dedicated to providing the best possible service to our clients. We also employ highly skilled experts with a collective 20 years of experience in the field of Electrical and Mechanical Engineering. Our services are not limited to any specific original equipment manufacturer (OEM) , But Cover a wide
+        range of engineering. 
         </p>
           </div>
     </div>
