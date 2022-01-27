@@ -1,0 +1,103 @@
+.section-bg{
+    background-image: linear-gradient(rgba(111, 192, 230, 0.267),rgba(0, 59, 61, 0.815));
+    overflow-x: hidden;
+    background-position: center;
+    position: no-repeat;
+    color: white;
+    background-attachment: fixed;
+    margin-top: 100px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    margin: 0 10px 0 10px;
+}
+
+.team .member{
+    margin-bottom: 20px;
+    overflow: hidden;
+    border-radius: 5px;
+    background: white;
+    box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.2);
+    
+}
+
+.team .member:hover{
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.445);
+}
+
+@media (min-width:400px){
+    .team .member{
+        width: calc(100% - 20px);
+        margin: 10px 20px;
+    }
+}
+.team .member .member-img{
+    position: relative;
+    overflow: hidden;
+    
+}
+.team .member .member-img .img-fluid{
+    height: 300px;
+    width: 100%;
+}
+@media (max-width:992){
+    .team .member .member-img{
+        height: 400px;
+    }
+}
+.team .member .social{
+    position: absolute;
+    left: 0;
+    bottom: 30px;
+    right: 0;
+    opacity: 0;
+    transition: ease-in-out;
+    text-align: center;
+}
+
+.team .member .social a{
+    transition: color 0.3s;
+    margin: 0 3px;
+    padding-top: 7px;
+    border-radius: 50px;
+    width: 36px;
+    height: 36px;
+    justify-content: center;
+    background: rgb(0, 255, 255);
+    display: inline-block;
+    transition: ease-in-out .3s;
+    color:white
+}
+
+.team .member .social a:hover{
+    background: rgb(0, 66, 75);
+  
+}
+.team .member .social svg{
+    font-size: 18px;
+
+}
+
+.team .member .member-info{
+    padding: 25px 15px;
+    
+}
+.team .member .member-info h4{
+    font-weight: 700;
+    margin-bottom: 5px;
+    font-size: 24px;
+    color: rgb(0, 0, 0);
+}
+
+.team .member .member-info span{
+    display: block;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(63, 63, 63);
+
+}
+
+.team .member:hover .social{
+    opacity: 1;
+    bottom: 15px;
+    transition: ease-in-out .3s;
+}

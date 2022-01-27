@@ -1,0 +1,71 @@
+.services{
+    padding-bottom: 30px;
+}
+
+.services .des-box{
+    padding: 60px 30px;
+    position: relative;
+    overflow: hidden;
+    background: rgb(255, 255, 255);
+    box-shadow: 6px 0 10px 0 rgba(0, 0, 0, 0.4);
+    transition: all 0.3s ease-in-out;
+    border-radius: 8px;
+    z-index: 1;
+    text-align: center;
+}
+
+.services .des-box::before{
+    content: "";
+    position: absolute;
+    background: cyan;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    top: 100%;
+    transition: all 0.4s;
+    z-index: -1;
+
+}
+
+.services .des-box:hover::before{
+    top: 0;
+    background: darkcyan;
+    border-radius: 0px;
+
+}
+
+.services .icon{
+    margin-bottom: 15px;
+}
+.services .icon svg{
+    font-size: 48px;
+    line-height: 1;
+    color: #007194;
+    transition: all .3s ease-in-out;
+}
+
+.services .title{
+    font-weight: 700;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+.services .title a{
+    color: #000000;
+    transition: all .3s ease-in-out;
+}
+
+.services .description{
+    font-size: 15px;
+    line-height: 28px;
+    margin-bottom: 0;
+}
+
+.services .des-box:hover .title a,
+.services .des-box:hover .description{
+    color: #ffffff;
+}
+
+.services .des-box:hover .icon svg{
+    color: #ffffff;
+}

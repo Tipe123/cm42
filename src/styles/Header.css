@@ -1,0 +1,15 @@
+.bg-myLight{
+    background: #fff;
+    color:black;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #000;
+    text-transform: uppercase;
+}
+.navbar-toggler{
+    border:none;
+    color: #000;
+}
+.navbar-light .navbar-toggler-icon{
+    color: rgb(0, 0, 0);
+}
