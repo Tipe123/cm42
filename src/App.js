@@ -21,9 +21,9 @@ function App() {
      <Router>
        <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/Gallery" element={<Gallery />} />
-          <Route path="/Contact" element={<Contact />} />
-          <Route path="/About" element={<About />} />
+          <Route path="/gallery" element={<Gallery />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/about" element={<About />} />
        </Routes>
      </Router>
      <Footer instagram={"/"} facebook={"/"} twitter={"/"} linkedin={"/"} />
