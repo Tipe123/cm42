@@ -7,6 +7,8 @@ import InstagramIcon from '@mui/icons-material/Instagram';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import { Link } from 'react-router-dom';
+
 
 function Header() {
   return (
@@ -23,12 +25,19 @@ function Header() {
 
     <Navbar.Toggle />
     <Navbar.Collapse className="justify-content-end">
-    <Nav>
+    {/* <Nav>
       <a className="nav-link" href="/">Home</a>
       <a href="/gallery" className="nav-link">Gallery</a>
       <a href="/about" className="nav-link">About</a>
       <a href="/contact" className="nav-link">Contact</a>
-    </Nav>
+      <Link to="gallery" >Open in Gallery</Link>
+    </Nav> */}
+    <div className="navbar-nav">
+      <a className="nav-link" href="/">Home</a>
+      <a href="/gallery" className="nav-link">Gallery</a>
+      <a href="/about" className="nav-link">About</a>
+      <a href="/contact" className="nav-link">Contact</a>
+    </div>
     </Navbar.Collapse>
     
   </Navbar>

@@ -30,6 +30,7 @@ export default class Pictures extends Component {
         </Slider>
         <p> Swipe </p>
         <div className="btn btn-primary mt-5"><Link to="gallery" >Open in Gallery</Link></div>
+        <div className="btn btn-primary mt-5"><a href="/gallery">View more</a></div>
       </div>
     );
   }
