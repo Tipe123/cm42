@@ -41,7 +41,7 @@
     align-items: center;
     flex-direction: column;
     color: rgb(255, 251, 251);
-
+    
 }
     
 #hero h1{
@@ -51,7 +51,7 @@
     line-height: 56px;
     text-transform: uppercase;
     color: rgb(255, 255, 255);
-
+    overflow-y: hidden;
 }
 #hero h2{
     margin: 15px 0 0 0;

@@ -20,8 +20,8 @@ export default class Gallery extends Component {
       speed: 500
     };
     return (
-      <div className="mb-3 sliders">
-        <h2 className="mb-5">Electrical</h2>
+      <div className="mb-3 mt-4 sliders">
+        <h2 className="mb-5 mt-5">Electrical Eng</h2>
       
         <Slider {...settings}>
           {PictureList.map((picture, key) => {

@@ -24,14 +24,16 @@ function Header() {
     <Navbar.Toggle />
     <Navbar.Collapse className="justify-content-end">
     <Nav>
-      <Nav.Link href="/" >Home</Nav.Link>
-      <Nav.Link href="gallery">Gallery</Nav.Link>
-      <Nav.Link href="about">About Us</Nav.Link>
-      <Nav.Link href="contact">Contact Us</Nav.Link>
+      <a className="nav-link" href="/">Home</a>
+      <a href="/gallery" className="nav-link">Gallery</a>
+      <a href="/about" className="nav-link">About</a>
+      <a href="/contact" className="nav-link">Contact</a>
     </Nav>
     </Navbar.Collapse>
     
   </Navbar>
+
+
   );
 }
 
