@@ -9,6 +9,7 @@
 .navbar-toggler{
     border:none;
     color: #000;
+    height:100vh;
 }
 .navbar-light .navbar-toggler-icon{
     color: rgb(0, 0, 0);
