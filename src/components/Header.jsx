@@ -32,7 +32,7 @@ function Header() {
       <a href="/contact" className="nav-link">Contact</a>
       <Link to="gallery" >Open in Gallery</Link>
     </Nav> */}
-    <div className="navbar-nav">
+    <div className="navbar-nav m-auto">
       <a className="nav-link" href="/">Home</a>
       <a href="/gallery" className="nav-link">Gallery</a>
       <a href="/about" className="nav-link">About</a>
