@@ -3,7 +3,8 @@ import { TeamMembers } from '../helpers/TeamMembers';
 import Teamlist from './component/Teamlist';
 import '../styles/Team.css';
 const Team = () => {
-  return (<div className="team section-bg mt-5">
+  return (
+  <div className="team section-bg mt-5">
       <div className="Container">
           <div className="section-title">
               <h2 className="text-center py-3">

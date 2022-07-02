@@ -1,9 +1,8 @@
 .section-bg{
-    background-image: linear-gradient(rgba(111, 192, 230, 0.267),rgba(0, 59, 61, 0.815));
     overflow-x: hidden;
     background-position: center;
     position: no-repeat;
-    color: white;
+    color: rgb(0, 0, 0);
     background-attachment: fixed;
     margin-top: 100px;
     border-top-right-radius: 50px;
