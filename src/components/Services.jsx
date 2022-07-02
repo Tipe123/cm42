@@ -7,7 +7,7 @@ function Services (){
         <section id="services" className="services">
         <div className="container">
           <div className="section-title">
-            <h2 className="text-center pt-1">Services</h2>
+            <h2 className="text-center">Services</h2>
             <hr />
             </div>
             <div className="row pt-4 justify-content-center">

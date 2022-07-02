@@ -8,10 +8,10 @@ import Team from '../components/Team';
 import CoreValue from '../components/CoreValue';
 import Pictures from '../components/Pictures';
 
+
 function Home() {
   return (
     <div>
-     
       <div id="hero" className="mb-5">
       
         <div className="hero-container">

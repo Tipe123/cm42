@@ -29,6 +29,7 @@ export default class Gallery extends Component {
             if(picture.type === "Electrical"){
             return <Picture picture={picture.picture} title={picture.type} />;
             }
+            return null;
           })}
          
          
@@ -44,6 +45,7 @@ export default class Gallery extends Component {
             if(picture.type === "Mechanical"){
             return <Picture picture={picture.picture} title={picture.type} />;
             }
+            return null;
           })}
          
         
